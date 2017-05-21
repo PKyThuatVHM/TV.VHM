@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <addon 
-	id="repository.hieuhien.vn" 
+	id="repository.vuhongminh.com" 
 	version="1.0.0" 
-	name="[COLOR lime][B]Hieuhien.vn Repository[/B][/COLOR]" 
-	provider-name="Hieuhien.vn">
+	name="VHM TV" 
+	provider-name="TV.VHM">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
 	<extension point="xbmc.addon.repository"
-		name="[COLOR lime][B]Hieuhien.vn Repository[/B][/COLOR]">
-		<info compressed="true">https://raw.github.com/hieuhienvn/hieuhien.vn/master/addons.xml</info>
-		<checksum>https://raw.github.com/hieuhienvn/hieuhien.vn/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/hieuhienvn/hieuhien.vn/raw/master/zips/</datadir>
+		name="repository.vuhongminh.com">
+		<info compressed="true">https://raw.githubusercontent.com/PKyThuatVHM/TV.VHM/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/PKyThuatVHM/TV.VHM/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/PKyThuatVHM/TV.VHM/raw/master/zips/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Install addon from Hieuhien.vn's repository</summary>
