@@ -131,20 +131,6 @@ Nguồn data trên web nên chúng tôi không chịu trách nhiệm về sự �
 <platform>all</platform>
 </extension>
 </addon>
-<addon id="plugin.audio.itv.music" version="1.0.1" name="[COLOR ffff0000]*ITV*[/COLOR]Music" provider-name="itv member">
-<requires>
-<import addon="xbmc.python" version="2.1.0" optional="true"/>
-</requires>
-<extension point="xbmc.python.module" library="default.py"/>
-<extension point="xbmc.addon.metadata">
-<summary>Entertainment</summary>
-<description>Nghe nhạc online</description>
-<disclaimer lang="en">
-Nguồn data trên web nên chúng tôi không chịu trách nhiệm về sự ổn định.
-</disclaimer>
-<platform>all</platform>
-</extension>
-</addon>
 <addon id="plugin.audio.itv.nhacso" name="[COLOR blue]*ITV*[/COLOR]Nhạc Số" version="1.0.1" provider-name="itv member">
 <requires>
 <import addon="xbmc.python" version="2.1.0"/>
