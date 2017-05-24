@@ -3,7 +3,7 @@
 	<extension point="xbmc.addon.repository">
 		<info https://github.com/PKyThuatVHM/TV.VHM/blob/master/repository.vuhongminh/addon.xml</info>
 		<checksum>https://github.com/PKyThuatVHM/TV.VHM/blob/master/repository.vuhongminh/addon.xml.md5</checksum>
-		<datadir zip="true">http://thong.viettv24.com/kodi4vn/</datadir>
+		<datadir zip="true">https://github.com/PKyThuatVHM/TV.VHM/tree/master/repository.vuhongminh/zips/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install Kodi4VN Addons</summary>

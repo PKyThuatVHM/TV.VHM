@@ -1,0 +1,542 @@
+<addons>
+<addon id="plugin.video.kodi4vn.anhtrang.org" name="*[COLOR yellow]AnhTrang.org[/COLOR]" provider-name="thongld" version="2.0.6">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.xbmcswift2" version="1.3.1"/>
+<import addon="plugin.video.youtube" version="4.4.1"/>
+<import addon="script.module.requests" version="1.0"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<platform>all</platform>
+<summary>Watch free movies from anhtrang.org</summary>
+<description>Watch free movies from anhtrang.org</description>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.donggiao" name="*[COLOR yellow]Đồng Giao TV[/COLOR]" provider-name="thongld" version="1.0.5">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.xbmcswift2" version="1.3.1"/>
+<import addon="plugin.video.youtube" version="4.4.1"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<platform>all</platform>
+<summary>Watch free movies from phim14.net</summary>
+<description>Watch free movies from phim14.net</description>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.fptplay" version="1.1.9" name="*[COLOR yellow]FPTPlay Online[/COLOR]" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.xbmcswift2" version="1.3.1"/>
+<import addon="script.module.requests" version="1"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<summary>FPTPlay</summary>
+<description>Watch free FPTPlay.net (Vietnamese) Channels</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.hayhaytv" version="1.0.4" name="*[COLOR yellow]HayHayTV.vn[/COLOR]" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<summary>hayhaytv</summary>
+<description>Watch free hayhaytv.vn (Vietnamese) Videos</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.hdonlinevn" version="1.0.4" name="*[COLOR yellow]HDOnline[/COLOR]" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<summary>hdonline.vn</summary>
+<description>
+Xem phim HD Lồng tiếng và Thuyết minh tiếng Việt tại HDonline
+</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.hplus.vn" version="0.2" name="*[COLOR yellow]HPlus Online[/COLOR]" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.xbmcswift2" version="1.3.1"/>
+<import addon="script.module.requests" version="1"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<summary>HPlus</summary>
+<description>Watch free hplus.vn (Vietnamese) Channels</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.htvonline" version="1.1" name="*[COLOR yellow]HTV Online[/COLOR]" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.xbmcswift2" version="1.3.1"/>
+<import addon="script.module.requests" version="1"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<summary>HTV Online</summary>
+<description>Watch free HTVOnline.com.vn (Vietnamese) Channels</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.kenh108.com" name="*[COLOR yellow]kenh108.com[/COLOR]" provider-name="thongld" version="1.0.6">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.xbmcswift2" version="1.3.1"/>
+<import addon="plugin.video.youtube" version="4.4.1"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<platform>all</platform>
+<summary>Watch free movies from kenh108.com</summary>
+<description>Watch free movies from kenh108.com</description>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.launcher" version="2.3.6" name="**[COLOR yellow]Kodi4VN Launcher[/COLOR]" provider-name="kodi4vn">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.xbmcswift2" version="0.0.7"/>
+<import addon="plugin.video.youtube" version="4.4.1"/>
+<import addon="script.module.requests" version="1.0"/>
+<import addon="service.kodi4vn.maintenance" version="0.1"/>
+<import addon="script.module.httplib2" version="0.1"/>
+<import addon="service.kodi4vn.iptvproxy" version="0.1"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary>fb.me/kodi4vn</summary>
+<description>Watch hundreds of Vietnamesse and English channels</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.livestream.com" version="0.2" name="*[COLOR yellow]LiveStream.com[/COLOR]" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.xbmcswift2" version="1.3.1"/>
+<import addon="script.module.requests" version="1"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<summary>LiveStream.com</summary>
+<description>Watch free livestream.com</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.megafun" version="1.0.14" name="*[COLOR yellow]MegaFun.vn[/COLOR]" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<summary>hayhaytv</summary>
+<description>Watch free megafun.vn (Vietnamese) Videos</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.moviebox" name="*[COLOR yellow]MovieBox[/COLOR]" provider-name="thongld" version="1.0">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.xbmcswift2" version="1.3.1"/>
+<import addon="plugin.video.youtube" version="4.4.1"/>
+</requires>
+<extension library="default.py" point="xbmc.python.pluginsource">
+<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<platform>all</platform>
+<summary>Unofficial Kodi addon of MovieBox Android app</summary>
+<description>Unofficial Kodi addon of MovieBox Android app</description>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.phim.xixam.com" version="1.0.10" name="Xi Xam (Not woking)" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.urlresolver" version="0.0.1"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<summary>phim.xixam.com</summary>
+<description>Watch free phim.xixam.com (Vietnamese) Videos</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.phim14.net" name="*[COLOR yellow]Phim14.net[/COLOR]" provider-name="thongld" version="2.1.5">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.xbmcswift2" version="1.3.1"/>
+<import addon="plugin.video.youtube" version="4.4.1"/>
+<import addon="script.module.requests" version="1"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<platform>all</platform>
+<summary>
+Watch free movies from phim14.net (phim lồng tiếng, thuyết minh tiếng Việt)
+</summary>
+<description>
+Watch free movies from phim14.net (phim lồng tiếng, thuyết minh tiếng Việt)
+</description>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.phim60s" version="2.3.2" name="*[COLOR yellow]Phim60s.info[/COLOR]" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.xbmcswift2" version="1.3.1"/>
+<import addon="plugin.video.youtube" version="4.4.1"/>
+<import addon="script.module.requests" version="1"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<summary>phim60s</summary>
+<description>Watch free phim60s.info (Vietnamese) Videos</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.phimbathu" version="2.1.4" name="*[COLOR yellow]PhimBatHu[/COLOR]" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.xbmcswift2" version="1.3.1"/>
+<import addon="script.module.requests" version="1"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<summary>FPTPlay</summary>
+<description>Watch free FPTPlay.net (Vietnamese) Channels</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.phimclipvn" version="1.0.9" name="*[COLOR yellow]Phim ClipVN[/COLOR]" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.urlresolver" version="0.0.1"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<summary>Clip.vn</summary>
+<description>Watch free Clip.vn (Vietnamese) Videos</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.phimlt.com" name="*[COLOR yellow]PhimLT.com[/COLOR]" provider-name="thongld" version="0.6">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.xbmcswift2" version="1.3.1"/>
+<import addon="plugin.video.youtube" version="4.4.1"/>
+<import addon="script.module.requests" version="1"/>
+<import addon="script.module.urlresolver" version="0.0.1"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<platform>all</platform>
+<summary>
+Watch free movies from phimlt.com (phim lồng tiếng, thuyết minh tiếng Việt)
+</summary>
+<description>
+Watch free movies from phimlt.com (phim lồng tiếng, thuyết minh tiếng Việt)
+</description>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.phimvang.org" name="*[COLOR yellow]PhimVang.org[/COLOR]" provider-name="thongld" version="2.0.4">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.xbmcswift2" version="1.3.1"/>
+<import addon="plugin.video.youtube" version="4.4.1"/>
+<import addon="script.module.requests" version="1.0"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<platform>all</platform>
+<summary>Watch free movies from phimvang.org</summary>
+<description>Watch free movies from phimvang.org</description>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.sctv" version="0.9" name="*[COLOR yellow]SCTV TV24.vn[/COLOR]" provider-name="kodi4vn">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.xbmcswift2" version="1.3.1"/>
+<import addon="script.module.requests" version="1.0"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<summary>Truyền hình SCTV</summary>
+<description>Nhóm kênh chính thức của truyền hình SCTV TV24.vn</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.stalker" version="0.2" name="*[COLOR yellow]IPTV Stalker[/COLOR]" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.xbmcswift2" version="1.3.1"/>
+<import addon="script.module.requests" version="1"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<summary>FPTPlay</summary>
+<description>Watch free IPTVStalker Channels</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.viettv24" version="1.0.20" name="*[COLOR yellow]VietTV24.com[/COLOR]" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="plugin.video.kodi4vn.launcher" version="0.2"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<summary>VietTV24.com</summary>
+<description>
+Watch hundreds of Vietnamesse and English channels from viettv24.com
+</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.vtvgo" version="0.11" name="*[COLOR yellow]VTV GO[/COLOR]" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.xbmcswift2" version="1.3.1"/>
+<import addon="script.module.requests" version="1"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<summary>VTV GO</summary>
+<description>Watch free vtvgo.vn (Vietnamese)</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.vtvplus" version="1.0.11" name="*[COLOR yellow]VTV Plus[/COLOR]" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.xbmcswift2" version="1.3.1"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<summary>VTV Plus Online</summary>
+<description>
+Watch vtvplus.vn (Vietnamese) Channels (VIP account required)
+</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.xemphimmienphi.net" version="0.3" name="*[COLOR yellow]XemPhimMienPhi.net[/COLOR]" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.xbmcswift2" version="1.3.1"/>
+<import addon="plugin.video.youtube" version="4.4.1"/>
+<import addon="script.module.requests" version="1"/>
+<import addon="script.module.urlresolver" version="0.0.1"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<summary>XemPhimMienPhi</summary>
+<description>Watch free XemPhimMienPhi.net (Vietnamese) Videos</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.xomgiaitri" version="1.0.34" name="*[COLOR yellow]XomGiaiTri.com[/COLOR]" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.requests" version="1"/>
+<import addon="script.module.urlresolver" version="0.0.1"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary>xomiaitri.com</summary>
+<description>Watch free xomiaitri.com (Vietnamese) Videos</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.yeuphim" version="0.8" name="*[COLOR yellow]YeuPhim[/COLOR]" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<summary/>
+<description/>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.youtube.playlists" name="*[COLOR yellow]VIP Playlists[/COLOR]" version="1.0.3" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<platform>all</platform>
+<summary lang="en">Watch VIP YouTube Playlists</summary>
+<language/>
+<description lang="en">Watch VIP YouTube Playlists</description>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.youtube.vnnews" name="*[COLOR yellow]VN Daily News[/COLOR]" version="1.0.9" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<platform>all</platform>
+<summary lang="en">Watch Youtube's SBTN, RFA, VOA, NguoivietTV...</summary>
+<language/>
+<description lang="en">Watch Youtube's SBTN, RFA, VOA, NguoivietTV...</description>
+</extension>
+</addon>
+<addon id="plugin.video.kodi4vn.zingtv" version="1.0.4" name="*[COLOR yellow]Zing TV[/COLOR]" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.urlresolver" version="0.0.1"/>
+</requires>
+<extension point="xbmc.python.module" library="default.py"/>
+<extension point="xbmc.addon.metadata">
+<summary>tv.zing.vn</summary>
+<description>Watch Zing TV (Vietnamese) Videos</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.sctv" version="3.0.3" name="SCTV" provider-name="thong.ld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.xbmcswift2" version="1.3.1"/>
+<import addon="script.module.requests" version="1.0"/>
+</requires>
+<extension library="default.py" point="xbmc.python.pluginsource">
+<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary>Truyền hình SCTV</summary>
+<description>Nhóm kênh chính thức của truyền hình SCTV</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="plugin.video.thongld.vnplaylist" version="1.1" name="**[COLOR yellow]VN Open Playlist[/COLOR]" provider-name="thongld">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.xbmcswift2" version="0.0.7"/>
+<import addon="plugin.video.youtube" version="4.4.1"/>
+<import addon="script.module.httplib2" version="0.1"/>
+<import addon="service.kodi4vn.iptvproxy" version="0.1"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary>AIO Media Center cho người Việt</summary>
+<description>
+Cổng giải trí mở, miễn phí, tất cả trong một cho người Việt
+</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="repository.bromix" name="Bromix Add-ons" version="1.2.2" provider-name="bromix">
+<extension point="xbmc.addon.repository" name="Bromix Add-ons">
+<info compressed="true">
+https://github.com/bromix/repository.bromix.storage/raw/master/addons.xml
+</info>
+<checksum>
+https://github.com/bromix/repository.bromix.storage/raw/master/addons.xml.md5
+</checksum>
+<datadir zip="true">
+https://raw.githubusercontent.com/bromix/repository.bromix.storage/master/
+</datadir>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary>Bromix Add-ons</summary>
+<summary lang="de">Bromix Add-ons</summary>
+<description>
+Repository of add-ons by Bromix. Some add-ons are final and perhaps obtainable by the official repository of KODI. Add-ons in alpha and beta status are here to test exclusively and for testers to provide them with updates.
+</description>
+<description lang="de">
+Repository an Add-ons von Bromix. Einige Add-Ons sind final und vielleicht durch das offizielle Repository von KODI erhältlich. Add-Ons in alpha- und beta-status sind hier ausschließlich zum Testen und um Tester mit Updates zu versorgen.
+</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="repository.kodi4vn" name="Kodi4VN's REPO" version="1.3" provider-name="ThongLD">
+<extension point="xbmc.addon.repository" name="ThongLD's Addon Repository">
+<info compressed="false">http://thong.viettv24.com/kodi4vn/addons.xml</info>
+<checksum>http://thong.viettv24.com/kodi4vn/addons.xml.md5</checksum>
+<datadir zip="true">http://thong.viettv24.com/kodi4vn/</datadir>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary>Install Kodi4VN Addons</summary>
+<description>
+Download and install addons from Kodi4VN's Repo: Best addons for Vietnamesse
+</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="script.module.flask" name="flask" version="0.11.1" provider-name="flask">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+</requires>
+<extension point="xbmc.python.module" library="lib"/>
+<extension point="xbmc.addon.metadata">
+<summary>Flask</summary>
+<description/>
+<platform>all</platform>
+<language/>
+<license>Apache2</license>
+<forum/>
+<website/>
+<source/>
+<email/>
+</extension>
+</addon>
+<addon id="script.module.kodiswift" name="kodiswift" provider-name="Aaron Frase (Sinap)" version="0.0.7.1">
+<requires>
+<import addon="xbmc.python" version="2.24.0"/>
+</requires>
+<extension library="lib" point="xbmc.python.module"/>
+<extension point="xbmc.addon.metadata">
+<summary lang="en">A fork of the xbmcswift2 project</summary>
+<description lang="en">
+A micro framework to enable rapid development of Kodi plugins.
+</description>
+<platform>all</platform>
+<license>GNU General Public License v3 (GPL-3)</license>
+<source>https://github.com/Sinap/kodiswift</source>
+<email>afrase91@gmail.com</email>
+<language/>
+<website/>
+<forum/>
+</extension>
+</addon>
+<addon id="service.kodi4vn.iptvproxy" version="0.6" name="**[COLOR yellow]IPTV Proxy[/COLOR]" provider-name="kodi4vn">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.flask" version="0.11"/>
+<import addon="script.module.youtube.dl" version="1"/>
+<import addon="script.module.requests" version="1"/>
+</requires>
+<extension point="xbmc.service" library="startup.py" start="startup"/>
+<extension point="xbmc.addon.metadata">
+<summary>Localhost proxy for iptv</summary>
+<description>Localhost proxy urlresolver for IPTV</description>
+<platform>all</platform>
+</extension>
+</addon>
+<addon id="service.kodi4vn.maintenance" version="0.11" name="**[COLOR yellow]Bảo trì Kodi4VN Launcher[/COLOR]" provider-name="kodi4vn">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+</requires>
+<extension point="xbmc.service" library="startup.py" start="startup"/>
+<extension point="xbmc.addon.metadata">
+<summary>Kodi4VN Maintenance</summary>
+<description>Maintenance Kodi system for better usage</description>
+<platform>all</platform>
+</extension>
+</addon>
+</addons>
